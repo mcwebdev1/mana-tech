@@ -60,6 +60,13 @@ body {
   font-family: var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+@media (max-width: 430px) {
+  .mana-link-label {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
 .font-bodoni {
   font-family: var(--font-bodoni), "Bodoni 72", Didot, "Times New Roman", serif;
 }

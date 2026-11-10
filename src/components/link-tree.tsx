@@ -115,7 +115,7 @@ export function LinkTree({
                       rel="noopener noreferrer"
                       className={`flex w-full items-center overflow-hidden border-b border-solid py-[13px] pr-5 pl-[19.5px] transition-opacity hover:opacity-70 ${border} ${linkColor} ${focus}`}
                     >
-                      <span className="min-w-px flex-1 text-left text-[16px] leading-[20.5px]">
+                      <span className="mana-link-label min-w-px flex-1 text-left text-[16px] leading-[20.5px]">
                         {link.label}
                       </span>
                       <span className="flex size-[18px] shrink-0 items-center justify-center">
