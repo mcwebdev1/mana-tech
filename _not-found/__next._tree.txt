@@ -1,6 +1,6 @@
-:HL["/_next/static/chunks/3oujlkz65ofmy.css","style"]
+:HL["/_next/static/chunks/38ervsmdrz9vo.css","style"]
 :HL["/tech-mobile.jpg","image",{"media":"(max-width: 430px)"}]
 :HL["/desktop-background.jpg","image",{"media":"(min-width: 431px)"}]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"_C42EbqYiaQ-WXGEeCjhk","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"nZuOuyxnZ8dMI7F0yrsoW","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
