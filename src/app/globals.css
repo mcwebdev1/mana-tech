@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
+html,
+body {
+  background: #dfdfdf;
+  color: #0d0d10;
+}
+
+.mana-hubs-stage {
+  position: relative;
+  width: min(430px, 100vw, calc(100dvh * 430 / 932));
+  height: min(932px, 100dvh, calc(100vw * 932 / 430));
+}
+
+.mana-hubs-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 932px;
+  transform-origin: top left;
+  transform: scale(min(1, 100vw / 430px, 100dvh / 932px));
+}
+
+.mana-desktop-bg,
+.mana-phone-bg {
+  background-color: #dfdfdf;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 430px) {
+  .mana-desktop-bg {
+    display: none;
+  }
+
+  .mana-phone-bg {
+    position: fixed;
+    inset: 0;
+    background-image: url("/tech-mobile.jpg");
+  }
+}
+
+@media (min-width: 431px) {
+  .mana-phone-bg {
+    display: none;
+  }
+
+  .mana-desktop-bg {
+    background-image: url("/desktop-background.jpg");
+  }
+}
+
+body {
+  font-family: var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.font-bodoni {
+  font-family: var(--font-bodoni), "Bodoni 72", Didot, "Times New Roman", serif;
+}
